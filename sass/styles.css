@@ -339,6 +339,10 @@ template {
 
 /* CUSTOM CSS */
 
+* {
+  font-size: 16px;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -346,6 +350,7 @@ main {
 }
 
 .main-title {
+  letter-spacing: 0.07rem;
   font-family: "Luckiest Guy", cursive;
 }
 
@@ -353,6 +358,7 @@ main {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 35px 25px;
+  width: calc(100vw - 120px);
 }
 
 .card-wrappers {
@@ -361,15 +367,35 @@ main {
   align-items: center;
   background-color: #9bcb50;
   border-radius: 15px;
+  -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.5);
 }
 
-.card-image-containers {
+.card-image-wrappers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  width: calc(100% - 26px);
   background-color: #deeec6;
   border-radius: 50%;
+  -webkit-box-shadow: inset 1px 1px 9px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 1px 1px 9px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 1px 9px 0px rgba(0, 0, 0, 0.5);
 }
 
 .card-images {
-  width: 90%;
+  width: 80%;
+  height: 80%;
+}
+
+.card-titles {
+  margin-bottom: 3px;
+}
+
+.pokedex-number {
+  margin-top: 3px;
 }
 
 .card-titles,
