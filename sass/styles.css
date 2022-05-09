@@ -187,9 +187,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
@@ -197,9 +197,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -208,9 +208,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -260,8 +260,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -271,8 +271,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -280,7 +280,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -290,7 +290,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -335,92 +335,6 @@ template {
  */
 [hidden] {
   display: none;
-}
-
-/* CUSTOM CSS */
-
-* {
-  font-size: 16px;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: rgb(59, 76, 202);
-  background: linear-gradient(
-    90deg,
-    rgba(59, 76, 202, 0.95) 0%,
-    rgba(255, 0, 0, 0.95) 50%,
-    rgba(255, 222, 0, 0.95) 100%
-  );
-}
-
-.main-title {
-  font-family: "Luckiest Guy", cursive;
-  font-size: 1.3rem;
-  letter-spacing: 0.07rem;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #3b4cca;
-  color: #ffde00;
-  margin: 10px 0 45px;
-}
-
-.grid-wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
-  gap: 35px 25px;
-  width: calc(100vw - 120px);
-  margin-top: 5px;
-}
-
-.card-wrappers {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #9bcb50;
-  border-radius: 15px;
-  -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.5);
-}
-
-.card-image-wrappers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 13px;
-  width: calc(100% - 26px);
-  background-color: #deeec6;
-  border-radius: 50%;
-  -webkit-box-shadow: inset 1px 1px 9px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: inset 1px 1px 9px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: inset 1px 1px 9px 0px rgba(0, 0, 0, 0.5);
-}
-
-.card-images {
-  width: 80%;
-  height: 80%;
-}
-
-.card-titles {
-  font-size: 1.1rem;
-  margin-bottom: 3px;
-}
-
-.pokedex-number {
-  margin-top: 3px;
-}
-
-.pokemon-type {
-  font-size: 0.9rem;
-  margin-top: 0px;
-}
-
-.card-titles,
-.pokedex-number,
-.pokemon-type {
-  font-family: "Roboto Mono", monospace;
 }
 
 /*# sourceMappingURL=styles.css.map */
