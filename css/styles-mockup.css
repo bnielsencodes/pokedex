@@ -80,11 +80,6 @@ main {
   margin-bottom: 8px;
 }
 
-.pokemon-type {
-  font-size: 0.9rem;
-  margin-top: 0px;
-}
-
 .icon {
   width: 25px;
   height: 25px;
@@ -101,80 +96,101 @@ main {
   margin-left: 5px;
 }
 
-.bug-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/3/3c/Pok%C3%A9mon_Bug_Type_Icon.svg);
-}
-
-.dragon-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/a/a6/Pok%C3%A9mon_Dragon_Type_Icon.svg);
-}
-
-.electric-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/a/a9/Pok%C3%A9mon_Electric_Type_Icon.svg);
-}
-
-.fairy-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg);
-}
-
-.fighting-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Pok%C3%A9mon_Fighting_Type_Icon.svg);
-}
-
-.fire-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/5/56/Pok%C3%A9mon_Fire_Type_Icon.svg);
-}
-
-.flying-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/e/e0/Pok%C3%A9mon_Flying_Type_Icon.svg);
-}
-
-.ghost-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/a/a0/Pok%C3%A9mon_Ghost_Type_Icon.svg);
-}
-
-.grass-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/f/f6/Pok%C3%A9mon_Grass_Type_Icon.svg);
-  float: left;
-}
-
-.ground-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/8/8d/Pok%C3%A9mon_Ground_Type_Icon.svg);
-}
-
-.ice-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/8/88/Pok%C3%A9mon_Ice_Type_Icon.svg);
-}
-
-.normal-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/a/aa/Pok%C3%A9mon_Normal_Type_Icon.svg);
-}
-
-.poison-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/c/c4/Pok%C3%A9mon_Poison_Type_Icon.svg);
-}
-
-.psychic-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/a/ab/Pok%C3%A9mon_Psychic_Type_Icon.svg);
-}
-
-.rock-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/b/bb/Pok%C3%A9mon_Rock_Type_Icon.svg);
-}
-
-.steel-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/3/38/Pok%C3%A9mon_Steel_Type_Icon.svg);
-}
-
-.water-icon {
-  content: url(https://upload.wikimedia.org/wikipedia/commons/0/0b/Pok%C3%A9mon_Water_Type_Icon.svg);
-}
-
 .card-titles,
 .pokedex-number,
 .pokemon-type {
   font-family: "Roboto Mono", monospace;
 }
+
+/* POKEMON TYPE ICONS */
+
+.bug-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/3/3c/Pok%C3%A9mon_Bug_Type_Icon.svg);
+  background-color: #83c400;
+}
+
+.dragon-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/a/a6/Pok%C3%A9mon_Dragon_Type_Icon.svg);
+  background-color: #0070ca;
+}
+
+.electric-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/a/a9/Pok%C3%A9mon_Electric_Type_Icon.svg);
+  background-color: #fbd200;
+}
+
+.fairy-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg);
+  background-color: #fb8bec;
+}
+
+.fighting-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/b/be/Pok%C3%A9mon_Fighting_Type_Icon.svg);
+  background-color: #e12d6a;
+}
+
+.fire-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/5/56/Pok%C3%A9mon_Fire_Type_Icon.svg);
+  background-color: #ff993e;
+}
+
+.flying-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/e/e0/Pok%C3%A9mon_Flying_Type_Icon.svg);
+  background-color: ;
+  background-color: #8aace3;
+}
+
+.ghost-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/a/a0/Pok%C3%A9mon_Ghost_Type_Icon.svg);
+  background-color: #4a6ab3;
+}
+
+.grass-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/f/f6/Pok%C3%A9mon_Grass_Type_Icon.svg);
+  background-color: #33c049;
+}
+
+.ground-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/8/8d/Pok%C3%A9mon_Ground_Type_Icon.svg);
+  background-color: #e97332;
+}
+
+.ice-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/8/88/Pok%C3%A9mon_Ice_Type_Icon.svg);
+  background-color: #4bd2c1;
+}
+
+.normal-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/a/aa/Pok%C3%A9mon_Normal_Type_Icon.svg);
+  background-color: #929ba4;
+}
+
+.poison-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/c/c4/Pok%C3%A9mon_Poison_Type_Icon.svg);
+  background-color: #b767d0;
+}
+
+.psychic-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/a/ab/Pok%C3%A9mon_Psychic_Type_Icon.svg);
+  background-color: #ff6676;
+}
+
+.rock-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/b/bb/Pok%C3%A9mon_Rock_Type_Icon.svg);
+  background-color: #c9b887;
+}
+
+.steel-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/3/38/Pok%C3%A9mon_Steel_Type_Icon.svg);
+  background-color: #5a8fa3;
+}
+
+.water-icon {
+  content: url(https://upload.wikimedia.org/wikipedia/commons/0/0b/Pok%C3%A9mon_Water_Type_Icon.svg);
+  background-color: #3393dd;
+}
+
+/* CARD BACKGROUND AND CARD IMAGE BACKGROUND COLORS */
 
 .bug {
   background-color: #72a03f;
@@ -308,7 +324,7 @@ main {
   background-color: #c6deed;
 }
 
-/* GRADIENT BG COLORS FOR CARD WRAPPERS */
+/* GRADIENT BACKGROUND COLORS FOR CARD WRAPPERS */
 
 .bug-flying {
   background: rgb(114, 160, 63);
