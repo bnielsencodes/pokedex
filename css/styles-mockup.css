@@ -39,6 +39,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 2px solid black;
   border-radius: 15px;
   -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.5);
@@ -51,6 +52,7 @@ main {
   align-items: center;
   margin-top: 13px;
   width: calc(100% - 26px);
+  border: 1px solid black;
   border-radius: 50%;
   -webkit-box-shadow: inset 1px 1px 9px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 1px 1px 9px 0px rgba(0, 0, 0, 0.5);
@@ -73,6 +75,9 @@ main {
 
 .type-icon-wrapper {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
 .pokemon-type {
@@ -81,11 +86,19 @@ main {
 }
 
 .icon {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-left: 10px;
 }
 
 .icon-alt {
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-left: 5px;
 }
 
 .card-titles,
