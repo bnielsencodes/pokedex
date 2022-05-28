@@ -1,2225 +1,1632 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pokedex</title>
 
-    <!-- MAIN STYLESHEET -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokedex</title>
 
-    <link rel="stylesheet" href="./sass/styles.css" />
+  <!-- MAIN STYLESHEET -->
 
-    <!-- MOCKUP CSS STYLESHEET -->
+  <link rel="stylesheet" href="./sass/styles.css" />
 
-    <link rel="stylesheet" href="./css/styles-mockup.css" />
+  <!-- MOCKUP CSS STYLESHEET -->
 
-    <!-- 'PRESS START 2P' + 'VT323' GOOGLE FONT -->
+  <link rel="stylesheet" href="./css/styles-mockup.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Press+Start+2P&family=Roboto+Mono:wght@100;300;400;700&family=VT323&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <!-- 'PRESS START 2P' + 'VT323' GOOGLE FONT -->
 
-  <body>
-    <main>
-      <div class="main-title">
-        <h1>Pokedex</h1>
-      </div>
-      <!-- GRID WRAPPER -->
-      <div class="grid-wrapper">
-        <!-- CARD SECTION -->
-        <!-- 1 THROUGH 20 -->
-        <div class="card-wrappers grass-poison">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/001-bulbasaur.png"
-              alt="Bulbasaur"
-            />
-          </div>
-          <h3 class="card-titles">Bulbasaur</h3>
-          <p class="pokedex-number">#001</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers grass-poison">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/002-ivysaur.png"
-              alt="Ivysaur"
-            />
-          </div>
-          <h3 class="card-titles">Ivysaur</h3>
-          <p class="pokedex-number">#002</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers grass-poison">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/003-venusaur.png"
-              alt="Venusaur"
-            />
-          </div>
-          <h3 class="card-titles">Venasaur</h3>
-          <p class="pokedex-number">#003</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/004-charmander.png"
-              alt="Charmander"
-            />
-          </div>
-          <h3 class="card-titles">Charmander</h3>
-          <p class="pokedex-number">#004</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/005-charmeleon.png"
-              alt="Charmeleon"
-            />
-          </div>
-          <h3 class="card-titles">Charmeleon</h3>
-          <p class="pokedex-number">#005</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire-flying">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/006-charizard.png"
-              alt="Charizard"
-            />
-          </div>
-          <h3 class="card-titles">Charizard</h3>
-          <p class="pokedex-number">#006</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/007-squirtle.png"
-              alt="Squirtle"
-            />
-          </div>
-          <h3 class="card-titles">Squirtle</h3>
-          <p class="pokedex-number">#007</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/008-wartortle.png"
-              alt="Wartortle"
-            />
-          </div>
-          <h3 class="card-titles">Wartortle</h3>
-          <p class="pokedex-number">#008</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/009-blastoise.png"
-              alt="Blastoise"
-            />
-          </div>
-          <h3 class="card-titles">Blastoise</h3>
-          <p class="pokedex-number">#009</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/010-caterpie.png"
-              alt="Caterpie"
-            />
-          </div>
-          <h3 class="card-titles">Caterpie</h3>
-          <p class="pokedex-number">#010</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/011-metapod.png"
-              alt="Metapod"
-            />
-          </div>
-          <h3 class="card-titles">Metapod</h3>
-          <p class="pokedex-number">#011</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug-flying">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/012-butterfree.png"
-              alt="Butterfree"
-            />
-          </div>
-          <h3 class="card-titles">Butterfree</h3>
-          <p class="pokedex-number">#012</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug-poison">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/013-weedle.png"
-              alt="Weedle"
-            />
-          </div>
-          <h3 class="card-titles">Weedle</h3>
-          <p class="pokedex-number">#013</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug-poison">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/014-kakuna.png"
-              alt="Kakuna"
-            />
-          </div>
-          <h3 class="card-titles">Kakuna</h3>
-          <p class="pokedex-number">#014</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug-poison">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/015-beedrill.png"
-              alt="Beedrill"
-            />
-          </div>
-          <h3 class="card-titles">Beedrill</h3>
-          <p class="pokedex-number">#015</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal-flying">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/016-pidgey.png"
-              alt="Pidgey"
-            />
-          </div>
-          <h3 class="card-titles">Pidgey</h3>
-          <p class="pokedex-number">#016</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal-flying">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/017-pidgeotto.png"
-              alt="Pidgeotto"
-            />
-          </div>
-          <h3 class="card-titles">Pidgeotto</h3>
-          <p class="pokedex-number">#017</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal-flying">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/018-pidgeot.png"
-              alt="Pidgeot"
-            />
-          </div>
-          <h3 class="card-titles">Pidgeot</h3>
-          <p class="pokedex-number">#018</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/019-rattata.png"
-              alt="Rattata"
-            />
-          </div>
-          <h3 class="card-titles">Rattata</h3>
-          <p class="pokedex-number">#019</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/1-20/020-raticate.png"
-              alt="Raticate"
-            />
-          </div>
-          <h3 class="card-titles">Raticate</h3>
-          <p class="pokedex-number">#020</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <!-- 21 THROUGH 40 -->
-        <div class="card-wrappers normal-flying">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/021-spearow.png"
-              alt="Spearow"
-            />
-          </div>
-          <h3 class="card-titles">Spearow</h3>
-          <p class="pokedex-number">#021</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal-flying">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/022-fearow.png"
-              alt="Fearow"
-            />
-          </div>
-          <h3 class="card-titles">Fearow</h3>
-          <p class="pokedex-number">#022</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/023-ekans.png"
-              alt="Ekans"
-            />
-          </div>
-          <h3 class="card-titles">Ekans</h3>
-          <p class="pokedex-number">#023</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/024-arbok.png"
-              alt="Arbok"
-            />
-          </div>
-          <h3 class="card-titles">Arbok</h3>
-          <p class="pokedex-number">#024</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers electric">
-          <div class="card-image-wrappers electric-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/025-pikachu.png"
-              alt="Pikachu"
-            />
-          </div>
-          <h3 class="card-titles">Pikachu</h3>
-          <p class="pokedex-number">#025</p>
-          <div class="type-icon-wrapper">
-            <div class="icon electric-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers electric">
-          <div class="card-image-wrappers electric-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/026-raichu.png"
-              alt="Raichu"
-            />
-          </div>
-          <h3 class="card-titles">Raichu</h3>
-          <p class="pokedex-number">#026</p>
-          <div class="type-icon-wrapper">
-            <div class="icon electric-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ground">
-          <div class="card-image-wrappers ground-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/027-sandshrew.png"
-              alt="Sandshrew"
-            />
-          </div>
-          <h3 class="card-titles">Sandshrew</h3>
-          <p class="pokedex-number">#027</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ground">
-          <div class="card-image-wrappers ground-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/028-sandslash.png"
-              alt="Sandslash"
-            />
-          </div>
-          <h3 class="card-titles">Sandslash</h3>
-          <p class="pokedex-number">#028</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/029-nidoran-f.png"
-              alt="Female Nidoran"
-            />
-          </div>
-          <h3 class="card-titles">Nidoran&#9792;</h3>
-          <p class="pokedex-number">#029</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/030-nidorina.png"
-              alt="Nidorina"
-            />
-          </div>
-          <h3 class="card-titles">Nidorina</h3>
-          <p class="pokedex-number">#030</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison-ground">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/031-nidoqueen.png"
-              alt="Nidoqueen"
-            />
-          </div>
-          <h3 class="card-titles">Nidoqueen</h3>
-          <p class="pokedex-number">#031</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-            <div class="icon-alt ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/032-nidoran-m.png"
-              alt="Male Nidoran"
-            />
-          </div>
-          <h3 class="card-titles">Nidoran&#9794;</h3>
-          <p class="pokedex-number">#032</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/033-nidorino.png"
-              alt="Nidorino"
-            />
-          </div>
-          <h3 class="card-titles">Nidorino</h3>
-          <p class="pokedex-number">#033</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison-ground">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/034-nidoking.png"
-              alt="Nidoking"
-            />
-          </div>
-          <h3 class="card-titles">Nidoking</h3>
-          <p class="pokedex-number">#034</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-            <div class="icon-alt ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fairy">
-          <div class="card-image-wrappers fairy-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/035-clefairy.png"
-              alt="Clefairy"
-            />
-          </div>
-          <h3 class="card-titles">Clefairy</h3>
-          <p class="pokedex-number">#035</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fairy-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fairy">
-          <div class="card-image-wrappers fairy-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/036-clefable.png"
-              alt="Clefable"
-            />
-          </div>
-          <h3 class="card-titles">Clefable</h3>
-          <p class="pokedex-number">#036</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fairy-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/037-vulpix.png"
-              alt="Vulpix"
-            />
-          </div>
-          <h3 class="card-titles">Vulpix</h3>
-          <p class="pokedex-number">#037</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/038-ninetales.png"
-              alt="Ninetales"
-            />
-          </div>
-          <h3 class="card-titles">Ninetales</h3>
-          <p class="pokedex-number">#038</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal-fairy">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/039-jigglypuff.png"
-              alt="Jigglypuff"
-            />
-          </div>
-          <h3 class="card-titles">Jigglypuff</h3>
-          <p class="pokedex-number">#039</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-            <div class="icon-alt fairy-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal-fairy">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/21-40/040-wigglytuff.png"
-              alt="Wigglytuff"
-            />
-          </div>
-          <h3 class="card-titles">Wigglytuff</h3>
-          <p class="pokedex-number">#040</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-            <div class="icon-alt fairy-icon"></div>
-          </div>
-        </div>
-        <!-- 41 THROUGH 60 -->
-        <div class="card-wrappers poison-flying">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/041-zubat.png"
-              alt="Zubat"
-            />
-          </div>
-          <h3 class="card-titles">Zubat</h3>
-          <p class="pokedex-number">#041</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison-flying">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/042-golbat.png"
-              alt="Golbat"
-            />
-          </div>
-          <h3 class="card-titles">Golbat</h3>
-          <p class="pokedex-number">#042</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers grass-poison">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/043-oddish.png"
-              alt="Oddish"
-            />
-          </div>
-          <h3 class="card-titles">Oddish</h3>
-          <p class="pokedex-number">#043</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers grass-poison">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/044-gloom.png"
-              alt="Gloom"
-            />
-          </div>
-          <h3 class="card-titles">Gloom</h3>
-          <p class="pokedex-number">#044</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers grass-poison">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/045-vileplume.png"
-              alt="Vileplume"
-            />
-          </div>
-          <h3 class="card-titles">Vileplume</h3>
-          <p class="pokedex-number">#045</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug-grass">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/046-paras.png"
-              alt="Paras"
-            />
-          </div>
-          <h3 class="card-titles">Paras</h3>
-          <p class="pokedex-number">#046</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-            <div class="icon-alt grass-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug-grass">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/047-parasect.png"
-              alt="Parasect"
-            />
-          </div>
-          <h3 class="card-titles">Parasect</h3>
-          <p class="pokedex-number">#047</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-            <div class="icon-alt grass-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug-poison">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/048-venonat.png"
-              alt="Venonat"
-            />
-          </div>
-          <h3 class="card-titles">Venonat</h3>
-          <p class="pokedex-number">#048</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug-poison">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/049-venomoth.png"
-              alt="Venomoth"
-            />
-          </div>
-          <h3 class="card-titles">Venomoth</h3>
-          <p class="pokedex-number">#049</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ground">
-          <div class="card-image-wrappers ground-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/050-diglett.png"
-              alt="Diglett"
-            />
-          </div>
-          <h3 class="card-titles">Diglett</h3>
-          <p class="pokedex-number">#050</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ground">
-          <div class="card-image-wrappers ground-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/051-dugtrio.png"
-              alt="Dugtrio"
-            />
-          </div>
-          <h3 class="card-titles">Dugtrio</h3>
-          <p class="pokedex-number">#051</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/052-meowth.png"
-              alt="Meowth"
-            />
-          </div>
-          <h3 class="card-titles">Meowth</h3>
-          <p class="pokedex-number">#052</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/053-persian.png"
-              alt="Persian"
-            />
-          </div>
-          <h3 class="card-titles">Persian</h3>
-          <p class="pokedex-number">#053</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/054-psyduck.png"
-              alt="Psyduck"
-            />
-          </div>
-          <h3 class="card-titles">Psyduck</h3>
-          <p class="pokedex-number">#054</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/055-golduck.png"
-              alt="Golduck"
-            />
-          </div>
-          <h3 class="card-titles">Golduck</h3>
-          <p class="pokedex-number">#055</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fighting">
-          <div class="card-image-wrappers fighting-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/056-mankey.png"
-              alt="Mankey"
-            />
-          </div>
-          <h3 class="card-titles">Mankey</h3>
-          <p class="pokedex-number">#056</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fighting-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fighting">
-          <div class="card-image-wrappers fighting-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/057-primeape.png"
-              alt="Primeape"
-            />
-          </div>
-          <h3 class="card-titles">Primeape</h3>
-          <p class="pokedex-number">#057</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fighting-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/058-growlithe.png"
-              alt="Growlithe"
-            />
-          </div>
-          <h3 class="card-titles">Growlithe</h3>
-          <p class="pokedex-number">#058</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/059-arcanine.png"
-              alt="Arcanine"
-            />
-          </div>
-          <h3 class="card-titles">Arcanine</h3>
-          <p class="pokedex-number">#059</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/41-60/060-poliwag.png"
-              alt="Poliwag"
-            />
-          </div>
-          <h3 class="card-titles">Poliwag</h3>
-          <p class="pokedex-number">#060</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <!-- 61 THROUGH 80 -->
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/061-poliwhirl.png"
-              alt="Poliwhirl"
-            />
-          </div>
-          <h3 class="card-titles">Poliwhirl</h3>
-          <p class="pokedex-number">#061</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water-fighting">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/062-poliwrath.png"
-              alt="Poliwrath"
-            />
-          </div>
-          <h3 class="card-titles">Poliwrath</h3>
-          <p class="pokedex-number">#062</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-            <div class="icon-alt fighting-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers psychic">
-          <div class="card-image-wrappers psychic-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/063-abra.png"
-              alt="Abra"
-            />
-          </div>
-          <h3 class="card-titles">Abra</h3>
-          <p class="pokedex-number">#063</p>
-          <div class="type-icon-wrapper">
-            <div class="icon psychic-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers psychic">
-          <div class="card-image-wrappers psychic-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/064-kadabra.png"
-              alt="Kadabra"
-            />
-          </div>
-          <h3 class="card-titles">Kadabra</h3>
-          <p class="pokedex-number">#064</p>
-          <div class="type-icon-wrapper">
-            <div class="icon psychic-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers psychic">
-          <div class="card-image-wrappers psychic-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/065-alakazam.png"
-              alt="Alakazam"
-            />
-          </div>
-          <h3 class="card-titles">Alakazam</h3>
-          <p class="pokedex-number">#065</p>
-          <div class="type-icon-wrapper">
-            <div class="icon psychic-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fighting">
-          <div class="card-image-wrappers fighting-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/066-machop.png"
-              alt="Machop"
-            />
-          </div>
-          <h3 class="card-titles">Machop</h3>
-          <p class="pokedex-number">#066</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fighting-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fighting">
-          <div class="card-image-wrappers fighting-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/067-machoke.png"
-              alt="Machoke"
-            />
-          </div>
-          <h3 class="card-titles">Machoke</h3>
-          <p class="pokedex-number">#067</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fighting-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fighting">
-          <div class="card-image-wrappers fighting-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/068-machamp.png"
-              alt="Machamp"
-            />
-          </div>
-          <h3 class="card-titles">Machamp</h3>
-          <p class="pokedex-number">#068</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fighting-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers grass-poison">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/069-bellsprout.png"
-              alt="Bellsprout"
-            />
-          </div>
-          <h3 class="card-titles">Bellsprout</h3>
-          <p class="pokedex-number">#069</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers grass-poison">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/070-weepinbell.png"
-              alt="Weepinbell"
-            />
-          </div>
-          <h3 class="card-titles">Weepinbell</h3>
-          <p class="pokedex-number">#070</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers grass-poison">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/071-victreebel.png"
-              alt="Victreebel"
-            />
-          </div>
-          <h3 class="card-titles">Victreebel</h3>
-          <p class="pokedex-number">#071</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water-poison">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/072-tentacool.png"
-              alt="Tentacool"
-            />
-          </div>
-          <h3 class="card-titles">Tentacool</h3>
-          <p class="pokedex-number">#072</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water-poison">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/073-tentacruel.png"
-              alt="Tentacruel"
-            />
-          </div>
-          <h3 class="card-titles">Tentacruel</h3>
-          <p class="pokedex-number">#073</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers rock-ground">
-          <div class="card-image-wrappers rock-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/074-geodude.png"
-              alt="Geodude"
-            />
-          </div>
-          <h3 class="card-titles">Geodude</h3>
-          <p class="pokedex-number">#074</p>
-          <div class="type-icon-wrapper">
-            <div class="icon rock-icon"></div>
-            <div class="icon-alt ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers rock-ground">
-          <div class="card-image-wrappers rock-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/075-graveler.png"
-              alt="Graveler"
-            />
-          </div>
-          <h3 class="card-titles">Graveler</h3>
-          <p class="pokedex-number">#075</p>
-          <div class="type-icon-wrapper">
-            <div class="icon rock-icon"></div>
-            <div class="icon-alt ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers rock-ground">
-          <div class="card-image-wrappers rock-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/076-golem.png"
-              alt="Golem"
-            />
-          </div>
-          <h3 class="card-titles">Golem</h3>
-          <p class="pokedex-number">#076</p>
-          <div class="type-icon-wrapper">
-            <div class="icon rock-icon"></div>
-            <div class="icon-alt ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/077-ponyta.png"
-              alt="Ponyta"
-            />
-          </div>
-          <h3 class="card-titles">Ponyta</h3>
-          <p class="pokedex-number">#077</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/078-rapidash.png"
-              alt="Rapidash"
-            />
-          </div>
-          <h3 class="card-titles">Rapidash</h3>
-          <p class="pokedex-number">#078</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water-psychic">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/079-slowpoke.png"
-              alt="Slowpoke"
-            />
-          </div>
-          <h3 class="card-titles">Slowpoke</h3>
-          <p class="pokedex-number">#079</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-            <div class="icon-alt psychic-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water-psychic">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/61-80/080-slowbro.png"
-              alt="Slowbro"
-            />
-          </div>
-          <h3 class="card-titles">Slowbro</h3>
-          <p class="pokedex-number">#080</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-            <div class="icon-alt psychic-icon"></div>
-          </div>
-        </div>
-        <!-- 81 THROUGH 100 -->
-        <div class="card-wrappers electric-steel">
-          <div class="card-image-wrappers electric-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/081-magnemite.png"
-              alt="Magnemite"
-            />
-          </div>
-          <h3 class="card-titles">Magnemite</h3>
-          <p class="pokedex-number">#081</p>
-          <div class="type-icon-wrapper">
-            <div class="icon electric-icon"></div>
-            <div class="icon-alt steel-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers electric-steel">
-          <div class="card-image-wrappers electric-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/082-magneton.png"
-              alt="Magneton"
-            />
-          </div>
-          <h3 class="card-titles">Magneton</h3>
-          <p class="pokedex-number">#082</p>
-          <div class="type-icon-wrapper">
-            <div class="icon electric-icon"></div>
-            <div class="icon-alt steel-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal-flying">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/083-farfetchd.png"
-              alt="Farfetch'd"
-            />
-          </div>
-          <h3 class="card-titles">Farfetch'd</h3>
-          <p class="pokedex-number">#083</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal-flying">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/084-doduo.png"
-              alt="Doduo"
-            />
-          </div>
-          <h3 class="card-titles">Doduo</h3>
-          <p class="pokedex-number">#084</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal-flying">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/085-dodrio.png"
-              alt="Dodrio"
-            />
-          </div>
-          <h3 class="card-titles">Dodrio</h3>
-          <p class="pokedex-number">#085</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/086-seel.png"
-              alt="Seel"
-            />
-          </div>
-          <h3 class="card-titles">Seel</h3>
-          <p class="pokedex-number">#086</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water-ice">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/087-dewgong.png"
-              alt="Dewgong"
-            />
-          </div>
-          <h3 class="card-titles">Dewgong</h3>
-          <p class="pokedex-number">#087</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-            <div class="icon-alt ice-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/088-grimer.png"
-              alt="Grimer"
-            />
-          </div>
-          <h3 class="card-titles">Grimer</h3>
-          <p class="pokedex-number">#088</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/089-muk.png"
-              alt="Muk"
-            />
-          </div>
-          <h3 class="card-titles">Muk</h3>
-          <p class="pokedex-number">#089</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/090-shellder.png"
-              alt="Shellder"
-            />
-          </div>
-          <h3 class="card-titles">Shellder</h3>
-          <p class="pokedex-number">#090</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water-ice">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/091-cloyster.png"
-              alt="Cloyster"
-            />
-          </div>
-          <h3 class="card-titles">Cloyster</h3>
-          <p class="pokedex-number">#091</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-            <div class="icon-alt ice-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ghost-poison">
-          <div class="card-image-wrappers ghost-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/092-gastly.png"
-              alt="Gastly"
-            />
-          </div>
-          <h3 class="card-titles">Gastly</h3>
-          <p class="pokedex-number">#092</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ghost-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ghost-poison">
-          <div class="card-image-wrappers ghost-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/093-haunter.png"
-              alt="Haunter"
-            />
-          </div>
-          <h3 class="card-titles">Haunter</h3>
-          <p class="pokedex-number">#093</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ghost-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ghost-poison">
-          <div class="card-image-wrappers ghost-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/094-gengar.png"
-              alt="Gengar"
-            />
-          </div>
-          <h3 class="card-titles">Gengar</h3>
-          <p class="pokedex-number">#094</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ghost-icon"></div>
-            <div class="icon-alt poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers rock-ground">
-          <div class="card-image-wrappers rock-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/095-onix.png"
-              alt="Onix"
-            />
-          </div>
-          <h3 class="card-titles">Onix</h3>
-          <p class="pokedex-number">#095</p>
-          <div class="type-icon-wrapper">
-            <div class="icon rock-icon"></div>
-            <div class="icon-alt ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers psychic">
-          <div class="card-image-wrappers psychic-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/096-drowzee.png"
-              alt="Drowzee"
-            />
-          </div>
-          <h3 class="card-titles">Drowzee</h3>
-          <p class="pokedex-number">#096</p>
-          <div class="type-icon-wrapper">
-            <div class="icon psychic-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers psychic">
-          <div class="card-image-wrappers psychic-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/097-hypno.png"
-              alt="Hypno"
-            />
-          </div>
-          <h3 class="card-titles">Hypno</h3>
-          <p class="pokedex-number">#097</p>
-          <div class="type-icon-wrapper">
-            <div class="icon psychic-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/098-krabby.png"
-              alt="Krabby"
-            />
-          </div>
-          <h3 class="card-titles">Krabby</h3>
-          <p class="pokedex-number">#098</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/099-kingler.png"
-              alt="Kingler"
-            />
-          </div>
-          <h3 class="card-titles">Kingler</h3>
-          <p class="pokedex-number">#099</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers electric">
-          <div class="card-image-wrappers electric-light">
-            <img
-              class="card-images"
-              src="images/card-images/81-100/100-voltorb.png"
-              alt="Voltorb"
-            />
-          </div>
-          <h3 class="card-titles">Voltorb</h3>
-          <p class="pokedex-number">#100</p>
-          <div class="type-icon-wrapper">
-            <div class="icon electric-icon"></div>
-          </div>
-        </div>
-        <!-- 101 THROUGH 120 -->
-        <div class="card-wrappers electric">
-          <div class="card-image-wrappers electric-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/101-electrode.png"
-              alt="Electrode"
-            />
-          </div>
-          <h3 class="card-titles">Electrode</h3>
-          <p class="pokedex-number">#101</p>
-          <div class="type-icon-wrapper">
-            <div class="icon electric-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers grass-psychic">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/102-exeggcute.png"
-              alt="Exeggcute"
-            />
-          </div>
-          <h3 class="card-titles">Exeggcute</h3>
-          <p class="pokedex-number">#0102</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-            <div class="icon-alt psychic-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers grass-psychic">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/103-exeggutor.png"
-              alt="Exeggutor"
-            />
-          </div>
-          <h3 class="card-titles">Exeggutor</h3>
-          <p class="pokedex-number">#103</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-            <div class="icon-alt psychic-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ground">
-          <div class="card-image-wrappers ground-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/104-cubone.png"
-              alt="Cubone"
-            />
-          </div>
-          <h3 class="card-titles">Cubone</h3>
-          <p class="pokedex-number">#0104</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ground">
-          <div class="card-image-wrappers ground-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/105-marowak.png"
-              alt="Marowak"
-            />
-          </div>
-          <h3 class="card-titles">Marowak</h3>
-          <p class="pokedex-number">#105</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ground-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fighting">
-          <div class="card-image-wrappers fighting-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/106-hitmonlee.png"
-              alt="Hitmonlee"
-            />
-          </div>
-          <h3 class="card-titles">Hitmonlee</h3>
-          <p class="pokedex-number">#106</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fighting-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fighting">
-          <div class="card-image-wrappers fighting-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/107-hitmonchan.png"
-              alt="Hitmonchan"
-            />
-          </div>
-          <h3 class="card-titles">Hitmonchan</h3>
-          <p class="pokedex-number">#107</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fighting-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/108-lickitung.png"
-              alt="Lickitung"
-            />
-          </div>
-          <h3 class="card-titles">Lickitung</h3>
-          <p class="pokedex-number">#108</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/109-koffing.png"
-              alt="Koffing"
-            />
-          </div>
-          <h3 class="card-titles">Koffing</h3>
-          <p class="pokedex-number">#109</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers poison">
-          <div class="card-image-wrappers poison-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/110-weezing.png"
-              alt="Weezing"
-            />
-          </div>
-          <h3 class="card-titles">Weezing</h3>
-          <p class="pokedex-number">#110</p>
-          <div class="type-icon-wrapper">
-            <div class="icon poison-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ground-rock">
-          <div class="card-image-wrappers ground-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/111-rhyhorn.png"
-              alt="Rhyhorn"
-            />
-          </div>
-          <h3 class="card-titles">Rhyhorn</h3>
-          <p class="pokedex-number">#111</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ground-icon"></div>
-            <div class="icon-alt rock-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ground-rock">
-          <div class="card-image-wrappers ground-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/112-rhydon.png"
-              alt="Rhydon"
-            />
-          </div>
-          <h3 class="card-titles">Rhydon</h3>
-          <p class="pokedex-number">#112</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ground-icon"></div>
-            <div class="icon-alt rock-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/113-chansey.png"
-              alt="Chansey"
-            />
-          </div>
-          <h3 class="card-titles">Chansey</h3>
-          <p class="pokedex-number">#113</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers grass">
-          <div class="card-image-wrappers grass-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/114-tangela.png"
-              alt="Tangela"
-            />
-          </div>
-          <h3 class="card-titles">Tangela</h3>
-          <p class="pokedex-number">#114</p>
-          <div class="type-icon-wrapper">
-            <div class="icon grass-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/115-kangaskhan.png"
-              alt="Kangaskhan"
-            />
-          </div>
-          <h3 class="card-titles">Kangaskhan</h3>
-          <p class="pokedex-number">#115</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/116-horsea.png"
-              alt="Horsea"
-            />
-          </div>
-          <h3 class="card-titles">Horsea</h3>
-          <p class="pokedex-number">#116</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/117-seadra.png"
-              alt="Seadra"
-            />
-          </div>
-          <h3 class="card-titles">Seadra</h3>
-          <p class="pokedex-number">#117</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/118-goldeen.png"
-              alt="Goldeen"
-            />
-          </div>
-          <h3 class="card-titles">Goldeen</h3>
-          <p class="pokedex-number">#118</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/119-seeking.png"
-              alt="Seeking"
-            />
-          </div>
-          <h3 class="card-titles">Seeking</h3>
-          <p class="pokedex-number">#119</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/101-120/120-staryu.png"
-              alt="Staryu"
-            />
-          </div>
-          <h3 class="card-titles">Staryu</h3>
-          <p class="pokedex-number">#120</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <!-- 121 THROUGH 140 -->
-        <div class="card-wrappers water-psychic">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/121-starmie.png"
-              alt="Starmie"
-            />
-          </div>
-          <h3 class="card-titles">Starmie</h3>
-          <p class="pokedex-number">#121</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-            <div class="icon-alt psychic-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers psychic-fairy">
-          <div class="card-image-wrappers psychic-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/122-mr-mime.png"
-              alt="Mr. Mime"
-            />
-          </div>
-          <h3 class="card-titles">Mr. Mime</h3>
-          <p class="pokedex-number">#122</p>
-          <div class="type-icon-wrapper">
-            <div class="icon psychic-icon"></div>
-            <div class="icon-alt fairy-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug-flying">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/123-scyther.png"
-              alt="Scyther"
-            />
-          </div>
-          <h3 class="card-titles">Scyther</h3>
-          <p class="pokedex-number">#123</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ice-psychic">
-          <div class="card-image-wrappers ice-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/124-jynx.png"
-              alt="Jynx"
-            />
-          </div>
-          <h3 class="card-titles">Jynx</h3>
-          <p class="pokedex-number">#124</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ice-icon"></div>
-            <div class="icon-alt psychic-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers electric">
-          <div class="card-image-wrappers electric-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/125-electabuzz.png"
-              alt="Electabuzz"
-            />
-          </div>
-          <h3 class="card-titles">Electabuzz</h3>
-          <p class="pokedex-number">#125</p>
-          <div class="type-icon-wrapper">
-            <div class="icon electric-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/126-magmar.png"
-              alt="Magmar"
-            />
-          </div>
-          <h3 class="card-titles">Magmar</h3>
-          <p class="pokedex-number">#126</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers bug">
-          <div class="card-image-wrappers bug-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/127-pinsir.png"
-              alt="Pinsir"
-            />
-          </div>
-          <h3 class="card-titles">Pinsir</h3>
-          <p class="pokedex-number">#127</p>
-          <div class="type-icon-wrapper">
-            <div class="icon bug-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/128-tauros.png"
-              alt="Tauros"
-            />
-          </div>
-          <h3 class="card-titles">Tauros</h3>
-          <p class="pokedex-number">#128</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/129-magikarp.png"
-              alt="Magikarp"
-            />
-          </div>
-          <h3 class="card-titles">Magikarp</h3>
-          <p class="pokedex-number">#129</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water-flying">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/130-gyarados.png"
-              alt="Gyarados"
-            />
-          </div>
-          <h3 class="card-titles">Gyarados</h3>
-          <p class="pokedex-number">#130</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water-ice">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/131-lapras.png"
-              alt="Lapras"
-            />
-          </div>
-          <h3 class="card-titles">Lapras</h3>
-          <p class="pokedex-number">#131</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-            <div class="icon-alt ice-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/132-ditto.png"
-              alt="Ditto"
-            />
-          </div>
-          <h3 class="card-titles">Ditto</h3>
-          <p class="pokedex-number">#132</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/133-eevee.png"
-              alt="Eevee"
-            />
-          </div>
-          <h3 class="card-titles">Eevee</h3>
-          <p class="pokedex-number">#133</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers water">
-          <div class="card-image-wrappers water-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/134-vaporean.png"
-              alt="Vaporean"
-            />
-          </div>
-          <h3 class="card-titles">Vaporean</h3>
-          <p class="pokedex-number">#134</p>
-          <div class="type-icon-wrapper">
-            <div class="icon water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers electric">
-          <div class="card-image-wrappers electric-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/135-jolteon.png"
-              alt="Jolteon"
-            />
-          </div>
-          <h3 class="card-titles">Jolteon</h3>
-          <p class="pokedex-number">#135</p>
-          <div class="type-icon-wrapper">
-            <div class="icon electric-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/136-flareon.png"
-              alt="Flareon"
-            />
-          </div>
-          <h3 class="card-titles">Flareon</h3>
-          <p class="pokedex-number">#136</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/137-porygon.png"
-              alt="Porygon"
-            />
-          </div>
-          <h3 class="card-titles">pokemon</h3>
-          <p class="pokedex-number">#000</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers rock-water">
-          <div class="card-image-wrappers rock-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/138-omanyte.png"
-              alt="#"
-            />
-          </div>
-          <h3 class="card-titles">Porygon</h3>
-          <p class="pokedex-number">#138</p>
-          <div class="type-icon-wrapper">
-            <div class="icon rock-icon"></div>
-            <div class="icon-alt water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers rock-water">
-          <div class="card-image-wrappers rock-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/139-omastar.png"
-              alt="Omastar"
-            />
-          </div>
-          <h3 class="card-titles">Omastar</h3>
-          <p class="pokedex-number">#139</p>
-          <div class="type-icon-wrapper">
-            <div class="icon rock-icon"></div>
-            <div class="icon-alt water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers rock-water">
-          <div class="card-image-wrappers rock-light">
-            <img
-              class="card-images"
-              src="images/card-images/121-140/140-kabuto.png"
-              alt="Kabuto"
-            />
-          </div>
-          <h3 class="card-titles">Kabuto</h3>
-          <p class="pokedex-number">#140</p>
-          <div class="type-icon-wrapper">
-            <div class="icon rock-icon"></div>
-            <div class="icon-alt water-icon"></div>
-          </div>
-        </div>
-        <!-- 141 THROUGH 151 -->
-        <div class="card-wrappers rock-water">
-          <div class="card-image-wrappers rock-light">
-            <img
-              class="card-images"
-              src="images/card-images/141-151/141-kabutops.png"
-              alt="Kabutops"
-            />
-          </div>
-          <h3 class="card-titles">Kabutops</h3>
-          <p class="pokedex-number">#141</p>
-          <div class="type-icon-wrapper">
-            <div class="icon rock-icon"></div>
-            <div class="icon-alt water-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers rock-flying">
-          <div class="card-image-wrappers rock-light">
-            <img
-              class="card-images"
-              src="images/card-images/141-151/142-aerodactyl.png"
-              alt="Aerodactyl"
-            />
-          </div>
-          <h3 class="card-titles">Aerodactyl</h3>
-          <p class="pokedex-number">#142</p>
-          <div class="type-icon-wrapper">
-            <div class="icon rock-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers normal">
-          <div class="card-image-wrappers normal-light">
-            <img
-              class="card-images"
-              src="images/card-images/141-151/143-snorlax.png"
-              alt="Snorlax"
-            />
-          </div>
-          <h3 class="card-titles">Snorlax</h3>
-          <p class="pokedex-number">#143</p>
-          <div class="type-icon-wrapper">
-            <div class="icon normal-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers ice-flying">
-          <div class="card-image-wrappers ice-light">
-            <img
-              class="card-images"
-              src="images/card-images/141-151/144-articuno.png"
-              alt="Articuno"
-            />
-          </div>
-          <h3 class="card-titles">Articuno</h3>
-          <p class="pokedex-number">#144</p>
-          <div class="type-icon-wrapper">
-            <div class="icon ice-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers electric-flying">
-          <div class="card-image-wrappers electric-light">
-            <img
-              class="card-images"
-              src="images/card-images/141-151/145-zapdos.png"
-              alt="Zapdos"
-            />
-          </div>
-          <h3 class="card-titles">Zapdos</h3>
-          <p class="pokedex-number">#145</p>
-          <div class="type-icon-wrapper">
-            <div class="icon electric-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers fire-flying">
-          <div class="card-image-wrappers fire-light">
-            <img
-              class="card-images"
-              src="images/card-images/141-151/146-moltres.png"
-              alt="Moltres"
-            />
-          </div>
-          <h3 class="card-titles">Moltres</h3>
-          <p class="pokedex-number">#146</p>
-          <div class="type-icon-wrapper">
-            <div class="icon fire-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers dragon">
-          <div class="card-image-wrappers dragon-light">
-            <img
-              class="card-images"
-              src="images/card-images/141-151/147-dratini.png"
-              alt="Dratini"
-            />
-          </div>
-          <h3 class="card-titles">Dratini</h3>
-          <p class="pokedex-number">#147</p>
-          <div class="type-icon-wrapper">
-            <div class="icon dragon-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers dragon">
-          <div class="card-image-wrappers dragon-light">
-            <img
-              class="card-images"
-              src="images/card-images/141-151/148-dragonair.png"
-              alt="Dragonair"
-            />
-          </div>
-          <h3 class="card-titles">Dragonair</h3>
-          <p class="pokedex-number">#148</p>
-          <div class="type-icon-wrapper">
-            <div class="icon dragon-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers dragon-flying">
-          <div class="card-image-wrappers dragon-light">
-            <img
-              class="card-images"
-              src="images/card-images/141-151/149-dragonite.png"
-              alt="Dragonite"
-            />
-          </div>
-          <h3 class="card-titles">Dragonite</h3>
-          <p class="pokedex-number">#149</p>
-          <div class="type-icon-wrapper">
-            <div class="icon dragon-icon"></div>
-            <div class="icon-alt flying-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers psychic">
-          <div class="card-image-wrappers psychic-light">
-            <img
-              class="card-images"
-              src="images/card-images/141-151/150-mewtwo.png"
-              alt="Mew Two"
-            />
-          </div>
-          <h3 class="card-titles">Mew Two</h3>
-          <p class="pokedex-number">#150</p>
-          <div class="type-icon-wrapper">
-            <div class="icon psychic-icon"></div>
-          </div>
-        </div>
-        <div class="card-wrappers psychic">
-          <div class="card-image-wrappers psychic-light">
-            <img
-              class="card-images"
-              src="images/card-images/141-151/151-mew.png"
-              alt="Mew"
-            />
-          </div>
-          <h3 class="card-titles">Mew</h3>
-          <p class="pokedex-number">#151</p>
-          <div class="type-icon-wrapper">
-            <div class="icon psychic-icon"></div>
-          </div>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Press+Start+2P&family=Roboto+Mono:wght@100;300;400;700&family=VT323&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <!-- PAGE TITLE WRAPPER -->
+    <div class="main-title">
+      <h1>Pokedex</h1>
+    </div>
+    <!-- SEARCHBAR WRAPPER -->
+    <form class="search-wrapper" action="index.html" method="post">
+      <input type="search" name="search" id="search" placeholder="Search" />
+    </form>
+  </header>
+  <main>
+    <!-- GRID WRAPPER -->
+    <div class="grid-wrapper">
+      <!-- CARD SECTION -->
+      <!-- 1 THROUGH 20 -->
+      <div class="card-wrappers grass-poison" data-caption="Bulbasaur grass poison">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/1-20/001-bulbasaur.png" alt="Bulbasaur" />
+        </div>
+        <h3 class="card-titles">Bulbasaur</h3>
+        <p class="pokedex-number">#001</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+          <div class="icon-alt poison-icon"></div>
         </div>
       </div>
-    </main>
-  </body>
+      <div class="card-wrappers grass-poison">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/1-20/002-ivysaur.png" alt="Ivysaur" />
+        </div>
+        <h3 class="card-titles">Ivysaur</h3>
+        <p class="pokedex-number">#002</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers grass-poison">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/1-20/003-venusaur.png" alt="Venusaur" />
+        </div>
+        <h3 class="card-titles">Venasaur</h3>
+        <p class="pokedex-number">#003</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/1-20/004-charmander.png" alt="Charmander" />
+        </div>
+        <h3 class="card-titles">Charmander</h3>
+        <p class="pokedex-number">#004</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/1-20/005-charmeleon.png" alt="Charmeleon" />
+        </div>
+        <h3 class="card-titles">Charmeleon</h3>
+        <p class="pokedex-number">#005</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire-flying">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/1-20/006-charizard.png" alt="Charizard" />
+        </div>
+        <h3 class="card-titles">Charizard</h3>
+        <p class="pokedex-number">#006</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/1-20/007-squirtle.png" alt="Squirtle" />
+        </div>
+        <h3 class="card-titles">Squirtle</h3>
+        <p class="pokedex-number">#007</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/1-20/008-wartortle.png" alt="Wartortle" />
+        </div>
+        <h3 class="card-titles">Wartortle</h3>
+        <p class="pokedex-number">#008</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/1-20/009-blastoise.png" alt="Blastoise" />
+        </div>
+        <h3 class="card-titles">Blastoise</h3>
+        <p class="pokedex-number">#009</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/1-20/010-caterpie.png" alt="Caterpie" />
+        </div>
+        <h3 class="card-titles">Caterpie</h3>
+        <p class="pokedex-number">#010</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/1-20/011-metapod.png" alt="Metapod" />
+        </div>
+        <h3 class="card-titles">Metapod</h3>
+        <p class="pokedex-number">#011</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug-flying">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/1-20/012-butterfree.png" alt="Butterfree" />
+        </div>
+        <h3 class="card-titles">Butterfree</h3>
+        <p class="pokedex-number">#012</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug-poison">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/1-20/013-weedle.png" alt="Weedle" />
+        </div>
+        <h3 class="card-titles">Weedle</h3>
+        <p class="pokedex-number">#013</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug-poison">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/1-20/014-kakuna.png" alt="Kakuna" />
+        </div>
+        <h3 class="card-titles">Kakuna</h3>
+        <p class="pokedex-number">#014</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug-poison">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/1-20/015-beedrill.png" alt="Beedrill" />
+        </div>
+        <h3 class="card-titles">Beedrill</h3>
+        <p class="pokedex-number">#015</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal-flying">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/1-20/016-pidgey.png" alt="Pidgey" />
+        </div>
+        <h3 class="card-titles">Pidgey</h3>
+        <p class="pokedex-number">#016</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal-flying">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/1-20/017-pidgeotto.png" alt="Pidgeotto" />
+        </div>
+        <h3 class="card-titles">Pidgeotto</h3>
+        <p class="pokedex-number">#017</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal-flying">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/1-20/018-pidgeot.png" alt="Pidgeot" />
+        </div>
+        <h3 class="card-titles">Pidgeot</h3>
+        <p class="pokedex-number">#018</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/1-20/019-rattata.png" alt="Rattata" />
+        </div>
+        <h3 class="card-titles">Rattata</h3>
+        <p class="pokedex-number">#019</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/1-20/020-raticate.png" alt="Raticate" />
+        </div>
+        <h3 class="card-titles">Raticate</h3>
+        <p class="pokedex-number">#020</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <!-- 21 THROUGH 40 -->
+      <div class="card-wrappers normal-flying">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/21-40/021-spearow.png" alt="Spearow" />
+        </div>
+        <h3 class="card-titles">Spearow</h3>
+        <p class="pokedex-number">#021</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal-flying">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/21-40/022-fearow.png" alt="Fearow" />
+        </div>
+        <h3 class="card-titles">Fearow</h3>
+        <p class="pokedex-number">#022</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/21-40/023-ekans.png" alt="Ekans" />
+        </div>
+        <h3 class="card-titles">Ekans</h3>
+        <p class="pokedex-number">#023</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/21-40/024-arbok.png" alt="Arbok" />
+        </div>
+        <h3 class="card-titles">Arbok</h3>
+        <p class="pokedex-number">#024</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers electric">
+        <div class="card-image-wrappers electric-light">
+          <img class="card-images" src="images/card-images/21-40/025-pikachu.png" alt="Pikachu" />
+        </div>
+        <h3 class="card-titles">Pikachu</h3>
+        <p class="pokedex-number">#025</p>
+        <div class="type-icon-wrapper">
+          <div class="icon electric-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers electric">
+        <div class="card-image-wrappers electric-light">
+          <img class="card-images" src="images/card-images/21-40/026-raichu.png" alt="Raichu" />
+        </div>
+        <h3 class="card-titles">Raichu</h3>
+        <p class="pokedex-number">#026</p>
+        <div class="type-icon-wrapper">
+          <div class="icon electric-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ground">
+        <div class="card-image-wrappers ground-light">
+          <img class="card-images" src="images/card-images/21-40/027-sandshrew.png" alt="Sandshrew" />
+        </div>
+        <h3 class="card-titles">Sandshrew</h3>
+        <p class="pokedex-number">#027</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ground">
+        <div class="card-image-wrappers ground-light">
+          <img class="card-images" src="images/card-images/21-40/028-sandslash.png" alt="Sandslash" />
+        </div>
+        <h3 class="card-titles">Sandslash</h3>
+        <p class="pokedex-number">#028</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/21-40/029-nidoran-f.png" alt="Female Nidoran" />
+        </div>
+        <h3 class="card-titles">Nidoran&#9792;</h3>
+        <p class="pokedex-number">#029</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/21-40/030-nidorina.png" alt="Nidorina" />
+        </div>
+        <h3 class="card-titles">Nidorina</h3>
+        <p class="pokedex-number">#030</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison-ground">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/21-40/031-nidoqueen.png" alt="Nidoqueen" />
+        </div>
+        <h3 class="card-titles">Nidoqueen</h3>
+        <p class="pokedex-number">#031</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+          <div class="icon-alt ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/21-40/032-nidoran-m.png" alt="Male Nidoran" />
+        </div>
+        <h3 class="card-titles">Nidoran&#9794;</h3>
+        <p class="pokedex-number">#032</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/21-40/033-nidorino.png" alt="Nidorino" />
+        </div>
+        <h3 class="card-titles">Nidorino</h3>
+        <p class="pokedex-number">#033</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison-ground">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/21-40/034-nidoking.png" alt="Nidoking" />
+        </div>
+        <h3 class="card-titles">Nidoking</h3>
+        <p class="pokedex-number">#034</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+          <div class="icon-alt ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fairy">
+        <div class="card-image-wrappers fairy-light">
+          <img class="card-images" src="images/card-images/21-40/035-clefairy.png" alt="Clefairy" />
+        </div>
+        <h3 class="card-titles">Clefairy</h3>
+        <p class="pokedex-number">#035</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fairy-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fairy">
+        <div class="card-image-wrappers fairy-light">
+          <img class="card-images" src="images/card-images/21-40/036-clefable.png" alt="Clefable" />
+        </div>
+        <h3 class="card-titles">Clefable</h3>
+        <p class="pokedex-number">#036</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fairy-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/21-40/037-vulpix.png" alt="Vulpix" />
+        </div>
+        <h3 class="card-titles">Vulpix</h3>
+        <p class="pokedex-number">#037</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/21-40/038-ninetales.png" alt="Ninetales" />
+        </div>
+        <h3 class="card-titles">Ninetales</h3>
+        <p class="pokedex-number">#038</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal-fairy">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/21-40/039-jigglypuff.png" alt="Jigglypuff" />
+        </div>
+        <h3 class="card-titles">Jigglypuff</h3>
+        <p class="pokedex-number">#039</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+          <div class="icon-alt fairy-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal-fairy">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/21-40/040-wigglytuff.png" alt="Wigglytuff" />
+        </div>
+        <h3 class="card-titles">Wigglytuff</h3>
+        <p class="pokedex-number">#040</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+          <div class="icon-alt fairy-icon"></div>
+        </div>
+      </div>
+      <!-- 41 THROUGH 60 -->
+      <div class="card-wrappers poison-flying">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/41-60/041-zubat.png" alt="Zubat" />
+        </div>
+        <h3 class="card-titles">Zubat</h3>
+        <p class="pokedex-number">#041</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison-flying">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/41-60/042-golbat.png" alt="Golbat" />
+        </div>
+        <h3 class="card-titles">Golbat</h3>
+        <p class="pokedex-number">#042</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers grass-poison">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/41-60/043-oddish.png" alt="Oddish" />
+        </div>
+        <h3 class="card-titles">Oddish</h3>
+        <p class="pokedex-number">#043</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers grass-poison">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/41-60/044-gloom.png" alt="Gloom" />
+        </div>
+        <h3 class="card-titles">Gloom</h3>
+        <p class="pokedex-number">#044</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers grass-poison">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/41-60/045-vileplume.png" alt="Vileplume" />
+        </div>
+        <h3 class="card-titles">Vileplume</h3>
+        <p class="pokedex-number">#045</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug-grass">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/41-60/046-paras.png" alt="Paras" />
+        </div>
+        <h3 class="card-titles">Paras</h3>
+        <p class="pokedex-number">#046</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+          <div class="icon-alt grass-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug-grass">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/41-60/047-parasect.png" alt="Parasect" />
+        </div>
+        <h3 class="card-titles">Parasect</h3>
+        <p class="pokedex-number">#047</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+          <div class="icon-alt grass-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug-poison">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/41-60/048-venonat.png" alt="Venonat" />
+        </div>
+        <h3 class="card-titles">Venonat</h3>
+        <p class="pokedex-number">#048</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug-poison">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/41-60/049-venomoth.png" alt="Venomoth" />
+        </div>
+        <h3 class="card-titles">Venomoth</h3>
+        <p class="pokedex-number">#049</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ground">
+        <div class="card-image-wrappers ground-light">
+          <img class="card-images" src="images/card-images/41-60/050-diglett.png" alt="Diglett" />
+        </div>
+        <h3 class="card-titles">Diglett</h3>
+        <p class="pokedex-number">#050</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ground">
+        <div class="card-image-wrappers ground-light">
+          <img class="card-images" src="images/card-images/41-60/051-dugtrio.png" alt="Dugtrio" />
+        </div>
+        <h3 class="card-titles">Dugtrio</h3>
+        <p class="pokedex-number">#051</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/41-60/052-meowth.png" alt="Meowth" />
+        </div>
+        <h3 class="card-titles">Meowth</h3>
+        <p class="pokedex-number">#052</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/41-60/053-persian.png" alt="Persian" />
+        </div>
+        <h3 class="card-titles">Persian</h3>
+        <p class="pokedex-number">#053</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/41-60/054-psyduck.png" alt="Psyduck" />
+        </div>
+        <h3 class="card-titles">Psyduck</h3>
+        <p class="pokedex-number">#054</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/41-60/055-golduck.png" alt="Golduck" />
+        </div>
+        <h3 class="card-titles">Golduck</h3>
+        <p class="pokedex-number">#055</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fighting">
+        <div class="card-image-wrappers fighting-light">
+          <img class="card-images" src="images/card-images/41-60/056-mankey.png" alt="Mankey" />
+        </div>
+        <h3 class="card-titles">Mankey</h3>
+        <p class="pokedex-number">#056</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fighting-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fighting">
+        <div class="card-image-wrappers fighting-light">
+          <img class="card-images" src="images/card-images/41-60/057-primeape.png" alt="Primeape" />
+        </div>
+        <h3 class="card-titles">Primeape</h3>
+        <p class="pokedex-number">#057</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fighting-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/41-60/058-growlithe.png" alt="Growlithe" />
+        </div>
+        <h3 class="card-titles">Growlithe</h3>
+        <p class="pokedex-number">#058</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/41-60/059-arcanine.png" alt="Arcanine" />
+        </div>
+        <h3 class="card-titles">Arcanine</h3>
+        <p class="pokedex-number">#059</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/41-60/060-poliwag.png" alt="Poliwag" />
+        </div>
+        <h3 class="card-titles">Poliwag</h3>
+        <p class="pokedex-number">#060</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <!-- 61 THROUGH 80 -->
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/61-80/061-poliwhirl.png" alt="Poliwhirl" />
+        </div>
+        <h3 class="card-titles">Poliwhirl</h3>
+        <p class="pokedex-number">#061</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water-fighting">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/61-80/062-poliwrath.png" alt="Poliwrath" />
+        </div>
+        <h3 class="card-titles">Poliwrath</h3>
+        <p class="pokedex-number">#062</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+          <div class="icon-alt fighting-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers psychic">
+        <div class="card-image-wrappers psychic-light">
+          <img class="card-images" src="images/card-images/61-80/063-abra.png" alt="Abra" />
+        </div>
+        <h3 class="card-titles">Abra</h3>
+        <p class="pokedex-number">#063</p>
+        <div class="type-icon-wrapper">
+          <div class="icon psychic-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers psychic">
+        <div class="card-image-wrappers psychic-light">
+          <img class="card-images" src="images/card-images/61-80/064-kadabra.png" alt="Kadabra" />
+        </div>
+        <h3 class="card-titles">Kadabra</h3>
+        <p class="pokedex-number">#064</p>
+        <div class="type-icon-wrapper">
+          <div class="icon psychic-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers psychic">
+        <div class="card-image-wrappers psychic-light">
+          <img class="card-images" src="images/card-images/61-80/065-alakazam.png" alt="Alakazam" />
+        </div>
+        <h3 class="card-titles">Alakazam</h3>
+        <p class="pokedex-number">#065</p>
+        <div class="type-icon-wrapper">
+          <div class="icon psychic-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fighting">
+        <div class="card-image-wrappers fighting-light">
+          <img class="card-images" src="images/card-images/61-80/066-machop.png" alt="Machop" />
+        </div>
+        <h3 class="card-titles">Machop</h3>
+        <p class="pokedex-number">#066</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fighting-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fighting">
+        <div class="card-image-wrappers fighting-light">
+          <img class="card-images" src="images/card-images/61-80/067-machoke.png" alt="Machoke" />
+        </div>
+        <h3 class="card-titles">Machoke</h3>
+        <p class="pokedex-number">#067</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fighting-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fighting">
+        <div class="card-image-wrappers fighting-light">
+          <img class="card-images" src="images/card-images/61-80/068-machamp.png" alt="Machamp" />
+        </div>
+        <h3 class="card-titles">Machamp</h3>
+        <p class="pokedex-number">#068</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fighting-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers grass-poison">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/61-80/069-bellsprout.png" alt="Bellsprout" />
+        </div>
+        <h3 class="card-titles">Bellsprout</h3>
+        <p class="pokedex-number">#069</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers grass-poison">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/61-80/070-weepinbell.png" alt="Weepinbell" />
+        </div>
+        <h3 class="card-titles">Weepinbell</h3>
+        <p class="pokedex-number">#070</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers grass-poison">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/61-80/071-victreebel.png" alt="Victreebel" />
+        </div>
+        <h3 class="card-titles">Victreebel</h3>
+        <p class="pokedex-number">#071</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water-poison">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/61-80/072-tentacool.png" alt="Tentacool" />
+        </div>
+        <h3 class="card-titles">Tentacool</h3>
+        <p class="pokedex-number">#072</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water-poison">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/61-80/073-tentacruel.png" alt="Tentacruel" />
+        </div>
+        <h3 class="card-titles">Tentacruel</h3>
+        <p class="pokedex-number">#073</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers rock-ground">
+        <div class="card-image-wrappers rock-light">
+          <img class="card-images" src="images/card-images/61-80/074-geodude.png" alt="Geodude" />
+        </div>
+        <h3 class="card-titles">Geodude</h3>
+        <p class="pokedex-number">#074</p>
+        <div class="type-icon-wrapper">
+          <div class="icon rock-icon"></div>
+          <div class="icon-alt ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers rock-ground">
+        <div class="card-image-wrappers rock-light">
+          <img class="card-images" src="images/card-images/61-80/075-graveler.png" alt="Graveler" />
+        </div>
+        <h3 class="card-titles">Graveler</h3>
+        <p class="pokedex-number">#075</p>
+        <div class="type-icon-wrapper">
+          <div class="icon rock-icon"></div>
+          <div class="icon-alt ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers rock-ground">
+        <div class="card-image-wrappers rock-light">
+          <img class="card-images" src="images/card-images/61-80/076-golem.png" alt="Golem" />
+        </div>
+        <h3 class="card-titles">Golem</h3>
+        <p class="pokedex-number">#076</p>
+        <div class="type-icon-wrapper">
+          <div class="icon rock-icon"></div>
+          <div class="icon-alt ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/61-80/077-ponyta.png" alt="Ponyta" />
+        </div>
+        <h3 class="card-titles">Ponyta</h3>
+        <p class="pokedex-number">#077</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/61-80/078-rapidash.png" alt="Rapidash" />
+        </div>
+        <h3 class="card-titles">Rapidash</h3>
+        <p class="pokedex-number">#078</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water-psychic">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/61-80/079-slowpoke.png" alt="Slowpoke" />
+        </div>
+        <h3 class="card-titles">Slowpoke</h3>
+        <p class="pokedex-number">#079</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+          <div class="icon-alt psychic-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water-psychic">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/61-80/080-slowbro.png" alt="Slowbro" />
+        </div>
+        <h3 class="card-titles">Slowbro</h3>
+        <p class="pokedex-number">#080</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+          <div class="icon-alt psychic-icon"></div>
+        </div>
+      </div>
+      <!-- 81 THROUGH 100 -->
+      <div class="card-wrappers electric-steel">
+        <div class="card-image-wrappers electric-light">
+          <img class="card-images" src="images/card-images/81-100/081-magnemite.png" alt="Magnemite" />
+        </div>
+        <h3 class="card-titles">Magnemite</h3>
+        <p class="pokedex-number">#081</p>
+        <div class="type-icon-wrapper">
+          <div class="icon electric-icon"></div>
+          <div class="icon-alt steel-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers electric-steel">
+        <div class="card-image-wrappers electric-light">
+          <img class="card-images" src="images/card-images/81-100/082-magneton.png" alt="Magneton" />
+        </div>
+        <h3 class="card-titles">Magneton</h3>
+        <p class="pokedex-number">#082</p>
+        <div class="type-icon-wrapper">
+          <div class="icon electric-icon"></div>
+          <div class="icon-alt steel-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal-flying">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/81-100/083-farfetchd.png" alt="Farfetch'd" />
+        </div>
+        <h3 class="card-titles">Farfetch'd</h3>
+        <p class="pokedex-number">#083</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal-flying">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/81-100/084-doduo.png" alt="Doduo" />
+        </div>
+        <h3 class="card-titles">Doduo</h3>
+        <p class="pokedex-number">#084</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal-flying">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/81-100/085-dodrio.png" alt="Dodrio" />
+        </div>
+        <h3 class="card-titles">Dodrio</h3>
+        <p class="pokedex-number">#085</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/81-100/086-seel.png" alt="Seel" />
+        </div>
+        <h3 class="card-titles">Seel</h3>
+        <p class="pokedex-number">#086</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water-ice">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/81-100/087-dewgong.png" alt="Dewgong" />
+        </div>
+        <h3 class="card-titles">Dewgong</h3>
+        <p class="pokedex-number">#087</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+          <div class="icon-alt ice-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/81-100/088-grimer.png" alt="Grimer" />
+        </div>
+        <h3 class="card-titles">Grimer</h3>
+        <p class="pokedex-number">#088</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/81-100/089-muk.png" alt="Muk" />
+        </div>
+        <h3 class="card-titles">Muk</h3>
+        <p class="pokedex-number">#089</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/81-100/090-shellder.png" alt="Shellder" />
+        </div>
+        <h3 class="card-titles">Shellder</h3>
+        <p class="pokedex-number">#090</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water-ice">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/81-100/091-cloyster.png" alt="Cloyster" />
+        </div>
+        <h3 class="card-titles">Cloyster</h3>
+        <p class="pokedex-number">#091</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+          <div class="icon-alt ice-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ghost-poison">
+        <div class="card-image-wrappers ghost-light">
+          <img class="card-images" src="images/card-images/81-100/092-gastly.png" alt="Gastly" />
+        </div>
+        <h3 class="card-titles">Gastly</h3>
+        <p class="pokedex-number">#092</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ghost-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ghost-poison">
+        <div class="card-image-wrappers ghost-light">
+          <img class="card-images" src="images/card-images/81-100/093-haunter.png" alt="Haunter" />
+        </div>
+        <h3 class="card-titles">Haunter</h3>
+        <p class="pokedex-number">#093</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ghost-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ghost-poison">
+        <div class="card-image-wrappers ghost-light">
+          <img class="card-images" src="images/card-images/81-100/094-gengar.png" alt="Gengar" />
+        </div>
+        <h3 class="card-titles">Gengar</h3>
+        <p class="pokedex-number">#094</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ghost-icon"></div>
+          <div class="icon-alt poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers rock-ground">
+        <div class="card-image-wrappers rock-light">
+          <img class="card-images" src="images/card-images/81-100/095-onix.png" alt="Onix" />
+        </div>
+        <h3 class="card-titles">Onix</h3>
+        <p class="pokedex-number">#095</p>
+        <div class="type-icon-wrapper">
+          <div class="icon rock-icon"></div>
+          <div class="icon-alt ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers psychic">
+        <div class="card-image-wrappers psychic-light">
+          <img class="card-images" src="images/card-images/81-100/096-drowzee.png" alt="Drowzee" />
+        </div>
+        <h3 class="card-titles">Drowzee</h3>
+        <p class="pokedex-number">#096</p>
+        <div class="type-icon-wrapper">
+          <div class="icon psychic-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers psychic">
+        <div class="card-image-wrappers psychic-light">
+          <img class="card-images" src="images/card-images/81-100/097-hypno.png" alt="Hypno" />
+        </div>
+        <h3 class="card-titles">Hypno</h3>
+        <p class="pokedex-number">#097</p>
+        <div class="type-icon-wrapper">
+          <div class="icon psychic-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/81-100/098-krabby.png" alt="Krabby" />
+        </div>
+        <h3 class="card-titles">Krabby</h3>
+        <p class="pokedex-number">#098</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/81-100/099-kingler.png" alt="Kingler" />
+        </div>
+        <h3 class="card-titles">Kingler</h3>
+        <p class="pokedex-number">#099</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers electric">
+        <div class="card-image-wrappers electric-light">
+          <img class="card-images" src="images/card-images/81-100/100-voltorb.png" alt="Voltorb" />
+        </div>
+        <h3 class="card-titles">Voltorb</h3>
+        <p class="pokedex-number">#100</p>
+        <div class="type-icon-wrapper">
+          <div class="icon electric-icon"></div>
+        </div>
+      </div>
+      <!-- 101 THROUGH 120 -->
+      <div class="card-wrappers electric">
+        <div class="card-image-wrappers electric-light">
+          <img class="card-images" src="images/card-images/101-120/101-electrode.png" alt="Electrode" />
+        </div>
+        <h3 class="card-titles">Electrode</h3>
+        <p class="pokedex-number">#101</p>
+        <div class="type-icon-wrapper">
+          <div class="icon electric-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers grass-psychic">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/101-120/102-exeggcute.png" alt="Exeggcute" />
+        </div>
+        <h3 class="card-titles">Exeggcute</h3>
+        <p class="pokedex-number">#0102</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+          <div class="icon-alt psychic-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers grass-psychic">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/101-120/103-exeggutor.png" alt="Exeggutor" />
+        </div>
+        <h3 class="card-titles">Exeggutor</h3>
+        <p class="pokedex-number">#103</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+          <div class="icon-alt psychic-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ground">
+        <div class="card-image-wrappers ground-light">
+          <img class="card-images" src="images/card-images/101-120/104-cubone.png" alt="Cubone" />
+        </div>
+        <h3 class="card-titles">Cubone</h3>
+        <p class="pokedex-number">#0104</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ground">
+        <div class="card-image-wrappers ground-light">
+          <img class="card-images" src="images/card-images/101-120/105-marowak.png" alt="Marowak" />
+        </div>
+        <h3 class="card-titles">Marowak</h3>
+        <p class="pokedex-number">#105</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ground-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fighting">
+        <div class="card-image-wrappers fighting-light">
+          <img class="card-images" src="images/card-images/101-120/106-hitmonlee.png" alt="Hitmonlee" />
+        </div>
+        <h3 class="card-titles">Hitmonlee</h3>
+        <p class="pokedex-number">#106</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fighting-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fighting">
+        <div class="card-image-wrappers fighting-light">
+          <img class="card-images" src="images/card-images/101-120/107-hitmonchan.png" alt="Hitmonchan" />
+        </div>
+        <h3 class="card-titles">Hitmonchan</h3>
+        <p class="pokedex-number">#107</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fighting-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/101-120/108-lickitung.png" alt="Lickitung" />
+        </div>
+        <h3 class="card-titles">Lickitung</h3>
+        <p class="pokedex-number">#108</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/101-120/109-koffing.png" alt="Koffing" />
+        </div>
+        <h3 class="card-titles">Koffing</h3>
+        <p class="pokedex-number">#109</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers poison">
+        <div class="card-image-wrappers poison-light">
+          <img class="card-images" src="images/card-images/101-120/110-weezing.png" alt="Weezing" />
+        </div>
+        <h3 class="card-titles">Weezing</h3>
+        <p class="pokedex-number">#110</p>
+        <div class="type-icon-wrapper">
+          <div class="icon poison-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ground-rock">
+        <div class="card-image-wrappers ground-light">
+          <img class="card-images" src="images/card-images/101-120/111-rhyhorn.png" alt="Rhyhorn" />
+        </div>
+        <h3 class="card-titles">Rhyhorn</h3>
+        <p class="pokedex-number">#111</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ground-icon"></div>
+          <div class="icon-alt rock-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ground-rock">
+        <div class="card-image-wrappers ground-light">
+          <img class="card-images" src="images/card-images/101-120/112-rhydon.png" alt="Rhydon" />
+        </div>
+        <h3 class="card-titles">Rhydon</h3>
+        <p class="pokedex-number">#112</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ground-icon"></div>
+          <div class="icon-alt rock-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/101-120/113-chansey.png" alt="Chansey" />
+        </div>
+        <h3 class="card-titles">Chansey</h3>
+        <p class="pokedex-number">#113</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers grass">
+        <div class="card-image-wrappers grass-light">
+          <img class="card-images" src="images/card-images/101-120/114-tangela.png" alt="Tangela" />
+        </div>
+        <h3 class="card-titles">Tangela</h3>
+        <p class="pokedex-number">#114</p>
+        <div class="type-icon-wrapper">
+          <div class="icon grass-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/101-120/115-kangaskhan.png" alt="Kangaskhan" />
+        </div>
+        <h3 class="card-titles">Kangaskhan</h3>
+        <p class="pokedex-number">#115</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/101-120/116-horsea.png" alt="Horsea" />
+        </div>
+        <h3 class="card-titles">Horsea</h3>
+        <p class="pokedex-number">#116</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/101-120/117-seadra.png" alt="Seadra" />
+        </div>
+        <h3 class="card-titles">Seadra</h3>
+        <p class="pokedex-number">#117</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/101-120/118-goldeen.png" alt="Goldeen" />
+        </div>
+        <h3 class="card-titles">Goldeen</h3>
+        <p class="pokedex-number">#118</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/101-120/119-seeking.png" alt="Seeking" />
+        </div>
+        <h3 class="card-titles">Seeking</h3>
+        <p class="pokedex-number">#119</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/101-120/120-staryu.png" alt="Staryu" />
+        </div>
+        <h3 class="card-titles">Staryu</h3>
+        <p class="pokedex-number">#120</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <!-- 121 THROUGH 140 -->
+      <div class="card-wrappers water-psychic">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/121-140/121-starmie.png" alt="Starmie" />
+        </div>
+        <h3 class="card-titles">Starmie</h3>
+        <p class="pokedex-number">#121</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+          <div class="icon-alt psychic-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers psychic-fairy">
+        <div class="card-image-wrappers psychic-light">
+          <img class="card-images" src="images/card-images/121-140/122-mr-mime.png" alt="Mr. Mime" />
+        </div>
+        <h3 class="card-titles">Mr. Mime</h3>
+        <p class="pokedex-number">#122</p>
+        <div class="type-icon-wrapper">
+          <div class="icon psychic-icon"></div>
+          <div class="icon-alt fairy-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug-flying">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/121-140/123-scyther.png" alt="Scyther" />
+        </div>
+        <h3 class="card-titles">Scyther</h3>
+        <p class="pokedex-number">#123</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ice-psychic">
+        <div class="card-image-wrappers ice-light">
+          <img class="card-images" src="images/card-images/121-140/124-jynx.png" alt="Jynx" />
+        </div>
+        <h3 class="card-titles">Jynx</h3>
+        <p class="pokedex-number">#124</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ice-icon"></div>
+          <div class="icon-alt psychic-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers electric">
+        <div class="card-image-wrappers electric-light">
+          <img class="card-images" src="images/card-images/121-140/125-electabuzz.png" alt="Electabuzz" />
+        </div>
+        <h3 class="card-titles">Electabuzz</h3>
+        <p class="pokedex-number">#125</p>
+        <div class="type-icon-wrapper">
+          <div class="icon electric-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/121-140/126-magmar.png" alt="Magmar" />
+        </div>
+        <h3 class="card-titles">Magmar</h3>
+        <p class="pokedex-number">#126</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers bug">
+        <div class="card-image-wrappers bug-light">
+          <img class="card-images" src="images/card-images/121-140/127-pinsir.png" alt="Pinsir" />
+        </div>
+        <h3 class="card-titles">Pinsir</h3>
+        <p class="pokedex-number">#127</p>
+        <div class="type-icon-wrapper">
+          <div class="icon bug-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/121-140/128-tauros.png" alt="Tauros" />
+        </div>
+        <h3 class="card-titles">Tauros</h3>
+        <p class="pokedex-number">#128</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/121-140/129-magikarp.png" alt="Magikarp" />
+        </div>
+        <h3 class="card-titles">Magikarp</h3>
+        <p class="pokedex-number">#129</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water-flying">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/121-140/130-gyarados.png" alt="Gyarados" />
+        </div>
+        <h3 class="card-titles">Gyarados</h3>
+        <p class="pokedex-number">#130</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water-ice">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/121-140/131-lapras.png" alt="Lapras" />
+        </div>
+        <h3 class="card-titles">Lapras</h3>
+        <p class="pokedex-number">#131</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+          <div class="icon-alt ice-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/121-140/132-ditto.png" alt="Ditto" />
+        </div>
+        <h3 class="card-titles">Ditto</h3>
+        <p class="pokedex-number">#132</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/121-140/133-eevee.png" alt="Eevee" />
+        </div>
+        <h3 class="card-titles">Eevee</h3>
+        <p class="pokedex-number">#133</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers water">
+        <div class="card-image-wrappers water-light">
+          <img class="card-images" src="images/card-images/121-140/134-vaporean.png" alt="Vaporean" />
+        </div>
+        <h3 class="card-titles">Vaporean</h3>
+        <p class="pokedex-number">#134</p>
+        <div class="type-icon-wrapper">
+          <div class="icon water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers electric">
+        <div class="card-image-wrappers electric-light">
+          <img class="card-images" src="images/card-images/121-140/135-jolteon.png" alt="Jolteon" />
+        </div>
+        <h3 class="card-titles">Jolteon</h3>
+        <p class="pokedex-number">#135</p>
+        <div class="type-icon-wrapper">
+          <div class="icon electric-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/121-140/136-flareon.png" alt="Flareon" />
+        </div>
+        <h3 class="card-titles">Flareon</h3>
+        <p class="pokedex-number">#136</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/121-140/137-porygon.png" alt="Porygon" />
+        </div>
+        <h3 class="card-titles">pokemon</h3>
+        <p class="pokedex-number">#000</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers rock-water">
+        <div class="card-image-wrappers rock-light">
+          <img class="card-images" src="images/card-images/121-140/138-omanyte.png" alt="#" />
+        </div>
+        <h3 class="card-titles">Porygon</h3>
+        <p class="pokedex-number">#138</p>
+        <div class="type-icon-wrapper">
+          <div class="icon rock-icon"></div>
+          <div class="icon-alt water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers rock-water">
+        <div class="card-image-wrappers rock-light">
+          <img class="card-images" src="images/card-images/121-140/139-omastar.png" alt="Omastar" />
+        </div>
+        <h3 class="card-titles">Omastar</h3>
+        <p class="pokedex-number">#139</p>
+        <div class="type-icon-wrapper">
+          <div class="icon rock-icon"></div>
+          <div class="icon-alt water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers rock-water">
+        <div class="card-image-wrappers rock-light">
+          <img class="card-images" src="images/card-images/121-140/140-kabuto.png" alt="Kabuto" />
+        </div>
+        <h3 class="card-titles">Kabuto</h3>
+        <p class="pokedex-number">#140</p>
+        <div class="type-icon-wrapper">
+          <div class="icon rock-icon"></div>
+          <div class="icon-alt water-icon"></div>
+        </div>
+      </div>
+      <!-- 141 THROUGH 151 -->
+      <div class="card-wrappers rock-water">
+        <div class="card-image-wrappers rock-light">
+          <img class="card-images" src="images/card-images/141-151/141-kabutops.png" alt="Kabutops" />
+        </div>
+        <h3 class="card-titles">Kabutops</h3>
+        <p class="pokedex-number">#141</p>
+        <div class="type-icon-wrapper">
+          <div class="icon rock-icon"></div>
+          <div class="icon-alt water-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers rock-flying">
+        <div class="card-image-wrappers rock-light">
+          <img class="card-images" src="images/card-images/141-151/142-aerodactyl.png" alt="Aerodactyl" />
+        </div>
+        <h3 class="card-titles">Aerodactyl</h3>
+        <p class="pokedex-number">#142</p>
+        <div class="type-icon-wrapper">
+          <div class="icon rock-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers normal">
+        <div class="card-image-wrappers normal-light">
+          <img class="card-images" src="images/card-images/141-151/143-snorlax.png" alt="Snorlax" />
+        </div>
+        <h3 class="card-titles">Snorlax</h3>
+        <p class="pokedex-number">#143</p>
+        <div class="type-icon-wrapper">
+          <div class="icon normal-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers ice-flying">
+        <div class="card-image-wrappers ice-light">
+          <img class="card-images" src="images/card-images/141-151/144-articuno.png" alt="Articuno" />
+        </div>
+        <h3 class="card-titles">Articuno</h3>
+        <p class="pokedex-number">#144</p>
+        <div class="type-icon-wrapper">
+          <div class="icon ice-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers electric-flying">
+        <div class="card-image-wrappers electric-light">
+          <img class="card-images" src="images/card-images/141-151/145-zapdos.png" alt="Zapdos" />
+        </div>
+        <h3 class="card-titles">Zapdos</h3>
+        <p class="pokedex-number">#145</p>
+        <div class="type-icon-wrapper">
+          <div class="icon electric-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers fire-flying">
+        <div class="card-image-wrappers fire-light">
+          <img class="card-images" src="images/card-images/141-151/146-moltres.png" alt="Moltres" />
+        </div>
+        <h3 class="card-titles">Moltres</h3>
+        <p class="pokedex-number">#146</p>
+        <div class="type-icon-wrapper">
+          <div class="icon fire-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers dragon">
+        <div class="card-image-wrappers dragon-light">
+          <img class="card-images" src="images/card-images/141-151/147-dratini.png" alt="Dratini" />
+        </div>
+        <h3 class="card-titles">Dratini</h3>
+        <p class="pokedex-number">#147</p>
+        <div class="type-icon-wrapper">
+          <div class="icon dragon-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers dragon">
+        <div class="card-image-wrappers dragon-light">
+          <img class="card-images" src="images/card-images/141-151/148-dragonair.png" alt="Dragonair" />
+        </div>
+        <h3 class="card-titles">Dragonair</h3>
+        <p class="pokedex-number">#148</p>
+        <div class="type-icon-wrapper">
+          <div class="icon dragon-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers dragon-flying">
+        <div class="card-image-wrappers dragon-light">
+          <img class="card-images" src="images/card-images/141-151/149-dragonite.png" alt="Dragonite" />
+        </div>
+        <h3 class="card-titles">Dragonite</h3>
+        <p class="pokedex-number">#149</p>
+        <div class="type-icon-wrapper">
+          <div class="icon dragon-icon"></div>
+          <div class="icon-alt flying-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers psychic">
+        <div class="card-image-wrappers psychic-light">
+          <img class="card-images" src="images/card-images/141-151/150-mewtwo.png" alt="Mew Two" />
+        </div>
+        <h3 class="card-titles">Mew Two</h3>
+        <p class="pokedex-number">#150</p>
+        <div class="type-icon-wrapper">
+          <div class="icon psychic-icon"></div>
+        </div>
+      </div>
+      <div class="card-wrappers psychic">
+        <div class="card-image-wrappers psychic-light">
+          <img class="card-images" src="images/card-images/141-151/151-mew.png" alt="Mew" />
+        </div>
+        <h3 class="card-titles">Mew</h3>
+        <p class="pokedex-number">#151</p>
+        <div class="type-icon-wrapper">
+          <div class="icon psychic-icon"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- JAVASCRIPT -->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
